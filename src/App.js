@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import Menu from "./Menu/Menu";
 import Hero from "./Hero/Hero";
 import HomePage from "./HomePage/Homepage";

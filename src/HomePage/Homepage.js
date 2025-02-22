@@ -1,3 +1,6 @@
+import ChartComponent from "../Chart/Chart";
+import D3Component from "../D3Component/D3";
+
 function HomePage() {
   return (
     <div
@@ -57,17 +60,12 @@ function HomePage() {
 
         <article className="text-box">
           <h3>Results</h3>
-          <p>
-            People who stick to a financial plan, budgeting every expense, get
-            out of debt faster! Also, they to live happier lives... since they
-            expend without guilt or fear... because they know it is all good and
-            accounted for.
-          </p>
+          <D3Component></D3Component>
         </article>
 
         <article className="text-box">
           <h3>Free</h3>
-          <p>This app is free!!! And you are the only one holding your data!</p>
+          <ChartComponent> </ChartComponent>
         </article>
       </div>
     </div>
